@@ -47,12 +47,18 @@ def login():
     cursor = database.cursor()
     cursor.execute('Select userid from acc;')
     userid_list = []
+    pass_list =[]
     data = cursor.fetchall()
+
     for i in data:
         userid_list.append(i[0])
-    for i in userid_list:
-        if i==userId:
-            break
+    for i in data:
+        pass_list.append(i[1])
+    
+    for i in range(0,len(userid_list)):
+        if userid_list[i]==userId:
+            if passWord == pass_list[i]:
+                break
         else:
             pass
     else:
