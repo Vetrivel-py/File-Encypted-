@@ -43,7 +43,7 @@ Rlogin()
 def login():
     userId = userid_entry.get()
     passWord = password_enrty.get()
-    database = py.connect('localhost','root','70809900dac','auth')
+    database = py.connect('localhost','username','password,'auth')
     cursor = database.cursor()
     cursor.execute('Select userid from acc;')
     userid_list = []
