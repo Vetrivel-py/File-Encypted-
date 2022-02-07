@@ -10,6 +10,7 @@ to choose the loaction of the source file using a file expolerer.
 ## How to Run
 
 *Run this command (Make sure that you are in the dir of App.py)*
+
 ```python App.py ```
 
 **Select your choice, whether Encrypt/Decrypt**
