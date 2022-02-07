@@ -1,7 +1,7 @@
 # File-Encrypted-
 
 ## About the GUI App
-This is a simple GUI app that Encrypt/Decrpyt a local file in your PC.
+This is a simple GUI app that Encrypts/Decrpyts a local file in your PC.
 
 I have used ***Symmetric Encryption*** to encrypt the file, and create a new file with the encrpyted data in it. Similarly, you can decrpyt the file.
 
@@ -15,7 +15,9 @@ to choose the loaction of the source file using a file expolerer.
 ```python App.py ```
 
 **Select your choice, whether Encrypt/Decrypt**
+
 **Choose the source file**
+
 **Open the source file to see the result**
 
 > This is one of my first projects in school and yes the name is funny.
