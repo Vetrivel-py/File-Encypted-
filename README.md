@@ -14,6 +14,8 @@ to choose the loaction of the source file using a file expolerer.
 
 ```python App.py ```
 
+
+**Only the users who log in can access the app**
 **Select your choice, whether Encrypt/Decrypt**
 
 **Choose the source file**
